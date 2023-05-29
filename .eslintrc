@@ -1,6 +1,5 @@
 {
   "extends": [
-    "plugin:@bepower/base",
     "plugin:@shopify/typescript",
     "plugin:@shopify/typescript-type-checking",
     "plugin:@shopify/prettier",
@@ -9,5 +8,8 @@
   "rules": {
     "no-new": "off",
     "prettier/prettier": "warn"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
   }
 }
