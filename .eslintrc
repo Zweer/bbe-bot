@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "plugin:@bepower/base",
+    "plugin:@shopify/typescript",
+    "plugin:@shopify/typescript-type-checking",
+    "plugin:@shopify/prettier",
+    "plugin:@shopify/node"
+  ],
+  "rules": {
+    "no-new": "off",
+    "prettier/prettier": "warn"
+  }
+}
